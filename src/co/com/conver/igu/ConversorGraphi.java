@@ -18,7 +18,7 @@ public class ConversorGraphi extends JFrame {
 	private JMenuItem opcion1, opcion2, opcion3;
 
 	double peso, dolares, euros, libras, yen, won;
-	double pulgadas, yardas, millas, preferencia;
+	double pulgadas, yardas, millas, preferencia, milimetros;
 	int continuar;
 
 	
