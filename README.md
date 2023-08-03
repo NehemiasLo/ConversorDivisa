@@ -1,4 +1,6 @@
-# Conversor Divisas y Longitudes
+ <h1 aling="center" ># Conversor Divisas y Longitudes</h1>
+<em>Desafío propuesto para llevar a cabo la practica de lo aprendido en la especialización Back End</em>
+![Menú principal donde seleccionamos la unidad a convertir](https://github.com/NehemiasLo/ConversorDivisa/blob/main/Imagens/menu.png)
 <h1>Conversorsiones</h1>
 <p>De Pesos a Dólares</p>
 <p>De Pesos a Euro</p>
