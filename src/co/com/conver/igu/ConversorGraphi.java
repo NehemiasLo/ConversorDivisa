@@ -18,8 +18,10 @@ public class ConversorGraphi extends JFrame {
 	private JMenuItem opcion1, opcion2, opcion3;
 
 	double peso, dolares, euros, libras, yen, won;
-	double pulgadas, yardas, millas, preferencia, milimetros;
+	double pulgadas, yardas, millas, preferencia, milimetros, importe;
 	int continuar;
+	
+	
 
 	
 	public ConversorGraphi() {
@@ -58,6 +60,7 @@ public class ConversorGraphi extends JFrame {
 					double importe = Integer.parseInt(
 							JOptionPane.showInputDialog(null, "Ingrese la cantidad de dinero que desea convertir: ",
 									"Importe", JOptionPane.CLOSED_OPTION));
+					
 
 					String[] possibleValues = { "De Pesos a Dólares", "De Pesos a Euro", "De Pesos a Libras",
 							"De Pesos a Yen Japonés", "De Pesos a Won Coreano", "De Dólares a Pesos", "De Euro a Pesos",
@@ -144,9 +147,8 @@ public class ConversorGraphi extends JFrame {
 					System.exit(ABORT);
 
 				} catch (NumberFormatException e1) {
-					JOptionPane.showMessageDialog(null, "Ingresa sólo valores numéricos", "Valor no válido",
-							JOptionPane.CLOSED_OPTION);
-
+						JOptionPane.showMessageDialog(null, "Ingresa sólo valores numéricos", "Valor no válido",
+								JOptionPane.CLOSED_OPTION);					
 				}
 			}
 		});
