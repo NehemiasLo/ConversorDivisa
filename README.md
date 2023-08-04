@@ -41,3 +41,8 @@
 <h3>En caso selecciones si volveras al menú principal de lo contrario saldras del programa</h3>
 
 ![Saliendo](https://github.com/NehemiasLo/ConversorDivisa/blob/main/Imagens/fin.png)
+
+<h3>Video funcionamiento conversor</h3>
+
+![Video](https://youtu.be/JXHqWb-ybuo)
+
